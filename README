@@ -1,3 +1,93 @@
-THIS IS THE READ ME FILE AND THANKS FOR READING
+I will be adding all the data that's needed to learn node a bit 
+it will also have some data about mongo db and something about ejs
+so let's start with git
 
-THIS IS JUSTA  TEST FFILE SO NO WORRIES ABOUT IT
+
+Setup a node env 
+And then start
+
+To setup npm you need to install npm but using
+Npm init
+
+And if you have any dependencies in your package.json then you need to use
+Npm install → to install all the packages
+
+
+Git setup follow same stepps
+
+First installing git in the same file
+
+To do that do 
+Git init
+
+Next add it to staging process
+
+Git add *
+
+All the files which are not mentioned in .gitignore will be staged
+
+Next commit it to the repo
+
+
+To do that you use
+
+Git commit -m “what you wanna say”
+
+
+After that create a branch 
+
+That is main
+
+And then create a remote repo 
+
+Git remote add origin “url” -> http url
+
+And the push using
+
+Git push -u origin main
+
+
+And for user id => urs is manishreddy255
+And for password => refer to access token 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
+
+This will be only valid till nov -21 2021 or create another with valid permissions
+
+Then you can push it
+
+________________________________________________________________________
+
+Now we will look into some node
+
+Now we will try to create api and then use it to perform crud ops on the data
+
+In the server only while in routing parameters we have api routes so we use it
+
+
+
+All the base steps are common 
+
+Need to require express into the file
+
+And then use it to create app
+
+Const express = require(‘express”)
+Const app = express()
+
+So this app is the main point of contact to us, with this only we create everything
+
+So now lets get the middle ware required for encoding and getting the data we entered in the form
+
+app.use(express.urlencoded())
+
+To stringify json data 
+
+app.use(express.json())
+
+App.get to process get requests and app.post to process post requests
+
+This way you can process the requests in the node 
+
+
+// we’ll now learn how to use to do the work
+
+
